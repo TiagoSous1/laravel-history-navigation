@@ -1,0 +1,44 @@
+{
+  "name": "franciscotsousa/laravel-history-navigation",
+  "description": "History navigation inspired by JavaScript's History API",
+  "keywords": [
+    "Laravel",
+    "History",
+    "History navigation"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francisco Tiago de Sousa Gonçalves",
+      "email": "franciscotiago_515@@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^6.0|^7.0|^8.0",
+    "illuminate/contracts": "^6.0|^7.0|^8.0",
+    "illuminate/http": "^6.0|^7.0|^8.0",
+    "illuminate/routing": "^6.0|^7.0|^8.0",
+    "illuminate/auth": "^6.0|^7.0|^8.0",
+    "jakeasmith/http_build_url": "^1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php",
+      "src/HistoryNavigation/helpers.php"
+    ],
+    "psr-4": {
+      "FranciscoTSousa\\HistoryNavigation\\": "src/HistoryNavigation/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FranciscoTSousa\\HistoryNavigation\\Providers\\HistoryNavigationServiceProvider"
+      ]
+    }
+  }
+}
