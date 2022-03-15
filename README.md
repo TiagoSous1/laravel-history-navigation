@@ -5,7 +5,7 @@ History navigation inspired by JavaScript's History API
 ```JSON
 {
     "require": {
-        "franciscotsousa/laravel-history-navigation": "v0.1.0"
+        "franciscotsousa/laravel-history-navigation": "dev-main"
     }
 }
 ```
